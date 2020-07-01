@@ -1,0 +1,321 @@
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #3a6be8;
+}
+.header {
+  margin: 0 auto 0px auto;
+  width: 95%;
+
+  max-width: 1300px;
+  padding: 0.8%;
+
+  height: fit-content;
+}
+.logo {
+  font-size: 3rem;
+  color: #3a6be8;
+  font-weight: 600;
+  display: inline;
+}
+.menu-group {
+  float: right;
+  padding-top: 20px;
+}
+.topnav {
+  display: none;
+}
+.menu-item {
+  width: fit-content;
+  margin: 0 15px;
+  color: #444;
+}
+
+.banner {
+  height: 30%;
+  background-color: #3a6be8;
+  background-image: url(/images/Sun-Tornado.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+}
+.banner-contents {
+  padding: 3% 10%;
+  max-width: 1200px;
+  margin: 0 auto 10px auto;
+}
+
+h1.heading-1 {
+  font-size: 3.5rem;
+  max-width: 60%;
+  margin-top: 0;
+}
+h2.heading-2 {
+  width: 60%;
+  font-weight: normal;
+  line-height: 2.5rem;
+}
+
+.email-form {
+  width: 65%;
+  margin: 10px auto 10px 0;
+  background-color: #ffffff14;
+  padding: 1%;
+  border-radius: 5px;
+}
+.email-banner-input {
+  width: 62%;
+  height: 30px;
+  padding: 8px;
+  font-size: larger;
+  border-radius: 5px;
+  border: none;
+  background-color: #eeeeef;
+}
+.email-banner-input:hover,
+.email-banner-input:focus {
+  background-color: #e0e0e0;
+
+  outline: #444;
+}
+.notify-btn {
+  width: 30%;
+  height: 45px;
+  padding: 8px;
+  font-size: larger;
+  margin: auto 0px auto 4%;
+  background-color: #f0950c;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.notify-btn:hover {
+  background-color: #c47909;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.features {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  margin: 50px auto 0 auto;
+  padding: 0 auto;
+}
+.feature-card {
+  width: 30%;
+  margin: 15px;
+  padding: 1%;
+  height: 300px;
+  background-color: #eeeeef;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.feature-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.feature-card > p {
+  color: #444;
+}
+.star-logo {
+  width: 100%;
+  height: 100px;
+  margin: 30px auto 10px auto;
+}
+.feature-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #343434;
+}
+
+.working {
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px auto;
+  padding: 0 auto;
+}
+
+.working-heading {
+  margin-bottom: 0;
+  padding: 2%;
+  font-size: 2rem;
+  padding-bottom: 0.5%;
+}
+.separator {
+  width: 96%;
+}
+
+.step {
+  display: flex;
+  background-color: #eeeeef;
+}
+
+.step-div {
+  padding: 2%;
+}
+
+.step-div > h3 {
+  font-size: 1.2rem;
+}
+
+.svg-div {
+  width: 15%;
+  max-width: 130px;
+  padding: 5%;
+}
+.eg-div {
+  margin: auto 10px auto 30px;
+  font-size: 1.5rem;
+  padding-right: 5%;
+}
+
+.footer {
+  width: 100%;
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  height: fit-content;
+  background-color: #343434;
+  padding: 20px 0;
+  color: #fff;
+}
+.social {
+  width: fit-content;
+  margin: 20px auto;
+}
+.social > a > img {
+  width: 35px;
+  margin: 0 5px;
+}
+
+.footer > p {
+  width: fit-content;
+  font-size: small;
+  margin: 0 auto 10px auto;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 0.9rem !important;
+  }
+  .logo {
+    font-size: 2.5rem;
+  }
+  .menu-group {
+    display: none;
+  }
+  .topnav {
+    display: contents;
+    float: right;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    width: 100%;
+  }
+
+  .topnav a {
+    color: #666;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #ddd;
+  }
+
+  .topnav a.icon {
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 2px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .banner-contents {
+    padding: 5%;
+  }
+  h1.heading-1 {
+    font-size: 2.5rem;
+    max-width: 100%;
+  }
+  h2.heading-2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 90%;
+  }
+  .launching {
+    font-size: smaller;
+  }
+  .email-form {
+    width: 95%;
+    padding: 3%;
+  }
+  .email-banner-input {
+    width: 95%;
+    font-size: large;
+  }
+  .notify-btn {
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.9rem;
+    padding: 3%;
+    margin: 10px 0 0 0;
+  }
+  .features {
+    display: block;
+    margin-top: 0;
+  }
+  .feature-card {
+    width: 92%;
+  }
+  .feature-card>p{
+    line-height: 1.5rem;
+  }
+  .feature-heading {
+    font-size: 1.5rem;
+  }
+  .working-heading {
+    font-size: 1.5rem;
+  }
+  .step-div {
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .step-div > h3 {
+    font-size: 1rem;
+  }
+  .svg-div {
+    width: 150px;
+    padding: auto 2%;
+  }
+  .svg-div > img {
+    margin: 10px 0 0 0;
+    width: 100px;
+  }
+  .eg-div {
+    margin-left: 10px;
+  }
+  .eg-div > p {
+    font-size: medium;
+    line-height: 1.5rem;
+  }
+}
